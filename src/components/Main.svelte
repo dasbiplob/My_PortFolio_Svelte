@@ -72,9 +72,9 @@
 
         <div class="flex w-full h-full relative shadow-2xl grid place-items-center">
             <img
-    src="images/deno_hr_circle.png"
+    src="https://img.icons8.com/color/48/deno.png"
     alt="Deno"
-    class="absolute bottom-0 left-3/4 transform translate-x-1/2 translate-y-1/2 rounded-full object-cover max-h-[70vh]"
+    class="absolute top-5 left-3/4 transform translate-x-1/2 translate-y-1/2 rounded-full object-cover max-h-[70vh]"
   />
             <!-- Profile Image -->
             <img
@@ -83,25 +83,31 @@
               loading="lazy"
               decoding="async"
               data-nimg="1"
+              style="color:transparent"
               class="z-50 relative rounded-full object-cover max-h-[70vh]"
             />
           
             <!-- Additional Images -->
             <img
-    src="https://cdn.jsdelivr.net/npm/sveltejs/logo.png"
+   src="https://www.cdnlogo.com/logos/s/6/svelte.svg"
     alt="Svelte"
-    class="absolute top-0 left-1/4 transform -translate-x-1/2 -translate-y-1/2 rounded-full object-cover max-h-[70vh]"
+    class="absolute top-10 left-1/4 transform -translate-x-1/2 -translate-y-1/2 rounded-full object-cover max-h-[10vh]"
   />
   <img
-    src="https://cdn.jsdelivr.net/npm/react@17/umd/react.development.js"
+    src="https://img.icons8.com/plasticine/100/react.png"
     alt="React"
-    class="absolute top-1/4 left-0 transform -translate-x-1/2 -translate-y-1/2 rounded-full object-cover max-h-[70vh]"
+    class="absolute bottom-1/4 left-20 transform -translate-x-1/2 -translate-y-1/2 rounded-full object-cover max-h-[70vh]"
   />
   <img
-    src="https://cdn.jsdelivr.net/npm/@iconify-icons/logos:java.svg"
+    src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
     alt="Java"
-    class="absolute bottom-1/4 right-0 transform translate-x-1/2 translate-y-1/2 rounded-full object-cover max-h-[70vh]"
+    class="absolute bottom-2/4 right-20 transform translate-x-1/2 translate-y-1/2 rounded-full object-cover max-h-[70vh]"
   />
+  <img
+  src="https://img.icons8.com/fluency/48/javascript.png"
+  alt="javascript"
+  class="absolute bottom-1/4 right-20 transform translate-x-1/2 translate-y-1/2 rounded-full object-cover max-h-[70vh]"
+/>
 
           </div>
         <!-- <div  class="flex p-0.5 relative max-w-[700px] w-full mx-auto">
@@ -130,7 +136,7 @@
             </h3>
         </div>
         <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            href="https://www.youtube.com/watch?v=uYXQwSVTlJU"
             target="_blank"
             class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
         >
