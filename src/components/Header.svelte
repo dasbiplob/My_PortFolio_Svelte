@@ -4,7 +4,7 @@
     export let tabs = [
         { name: "Projects", link: "#projects" },
         { name: "About me", link: "#about" },
-        { name: "Vlog", link: "https://www.youtube.com/watch?v=K4TfMeUxmK4" },
+        { name: "Blog", link: "https://www.youtube.com/watch?v=K4TfMeUxmK4" },
         //{ name: "Contact", link: "#contact" },
         // { name: '', link: '' },
     ];
@@ -16,17 +16,23 @@
             contactSection.scrollIntoView({ behavior: 'smooth' });
         }
     }
-</script>
 
+    function redirectToMainPage() {
+        window.location.href = "/"; // Replace "/" with the actual path of your main page
+    }
+    
+</script>
 <header
     class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid " +
         (y > 0
             ? " py-4 bg-slate-950 border-violet-950"
             : " py-6 bg-transparent border-transparent")}
 >
+<a href="/" class="duration-200 hover:text-violet-400">
     <h1 class="font-medium">
-        <b class="font-bold poppins">Port</b> <span class="poppins text-violet-400">folio</span>
+        <b class="font-bold poppins">Port</b><span class="poppins text-violet-400">folio</span>
     </h1>
+</a>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
             <a

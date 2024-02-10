@@ -27,19 +27,28 @@
             metric: "10x",
             name: "a versatile IT professional with 11+ years of expertise",
             description:
-                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+                //"I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+                "As a Full Stack Developer leads end-to-end web app development, excelling in Java, JS, React, Svelte, HTML, CSS, and frameworks. Responsibilities span architecture, database integration, mentorship, and staying updated on tech trends. Cloud expertise enhances deployment in secure, scalable environments.",
         },
         {
             name: "a full stack and UiPath developer",
             description:
-                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+                //"Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+                "Experienced Full Stack Developer with a passion for coding and diverse skills like Svelte, Java, JS, React. Led a team, established RPA COE, managed 100+ servers and processes, and excelled in client-facing roles. Expert in UiPath, Python, and automation, ensuring innovative solutions and 10% cost reduction. Recognized for resolving critical issues and awarded On The Spot 2022 for addressing log4j vulnerability. Proven track record in solution design, code reviews, and infrastructure management, resulting in a 20% increase in client acceptance. Actively engaged with UiPath product teams, contributing to the product roadmap.",
         },
         {
             name: "an excellent communicator",
             description:
-                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+                "Effective communication is a cornerstone of my professional ethos, placing a premium on transparency and constructive dialogue. I prioritize fostering meaningful relationships to enhance both my effectiveness and productivity within any team or work environment.",
         },
     ];
+
+    function redirectToLinkedIn() {
+        window.location.href = "https://www.linkedin.com/in/biplob-das/";
+    }
+    function redirectToFiver() {
+        window.location.href = "https://www.fiverr.com/?source=top_nav/";
+    }
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -61,12 +70,12 @@
                 or Firebase/Firestore!
             </p>
             <div class="flex justify-center items-center">
-                    <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
+                    <button on:click={redirectToLinkedIn} class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
                         <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
                         <h4 class="relative z-9">Get in touch &rarr;</h4>
                     </button>
             
-                    <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
+                    <button on:click={redirectToFiver} class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
                         <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
                         <h4 class="relative z-9">Hire Me &rarr;</h4>
                     </button>
