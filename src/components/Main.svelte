@@ -25,12 +25,12 @@
     let benefits = [
         {
             metric: "10x",
-            name: "an experienced IT professional with over 11+ years of expertise",
+            name: "a versatile IT professional with 11+ years of expertise",
             description:
                 "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
         },
         {
-            name: "a product design & UX finatic",
+            name: "a full stack and UiPath developer",
             description:
                 "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
         },
@@ -71,11 +71,6 @@
         </div>
 
         <div class="flex w-full h-full relative shadow-2xl grid place-items-center">
-            <img
-    src="https://img.icons8.com/color/48/deno.png"
-    alt="Deno"
-    class="absolute top-5 left-3/4 transform translate-x-1/2 translate-y-1/2 rounded-full object-cover max-h-[70vh]"
-  />
             <!-- Profile Image -->
             <img
               src="images/profile.png"
@@ -86,29 +81,6 @@
               style="color:transparent"
               class="z-50 relative rounded-full object-cover max-h-[70vh]"
             />
-          
-            <!-- Additional Images -->
-            <img
-   src="https://www.cdnlogo.com/logos/s/6/svelte.svg"
-    alt="Svelte"
-    class="absolute top-10 left-1/4 transform -translate-x-1/2 -translate-y-1/2 rounded-full object-cover max-h-[10vh]"
-  />
-  <img
-    src="https://img.icons8.com/plasticine/100/react.png"
-    alt="React"
-    class="absolute bottom-1/4 left-20 transform -translate-x-1/2 -translate-y-1/2 rounded-full object-cover max-h-[70vh]"
-  />
-  <img
-    src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
-    alt="Java"
-    class="absolute bottom-2/4 right-20 transform translate-x-1/2 translate-y-1/2 rounded-full object-cover max-h-[70vh]"
-  />
-  <img
-  src="https://img.icons8.com/fluency/48/javascript.png"
-  alt="javascript"
-  class="absolute bottom-1/4 right-20 transform translate-x-1/2 translate-y-1/2 rounded-full object-cover max-h-[70vh]"
-/>
-
           </div>
         <!-- <div  class="flex p-0.5 relative max-w-[700px] w-full mx-auto">
             <div
