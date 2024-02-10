@@ -229,72 +229,124 @@
                 </div>
             {/each}
         </div>
-        <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
-        </h5>
+        <section
+        id="about"
+        class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
+    >
+        <!-- <div class="z-[-1] bg-violet-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
         <div
-            class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
+            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
         >
-            <table class="bg-white text-slate-700 rounded text-center">
-                <thead class={"border-b border-solid border-slate-200  "}>
-                    <tr class="">
-                        <th />
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-                        <th
-                            class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
-                            >Me</th
-                        >
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Dedication</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Critical Thought</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr>
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Interpersonal Skills</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-t border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Progamming Ability</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                </tbody>
-            </table>
+            <h6 class="text-large sm:text-xl md:text-2xl">
+                Want I know.
+            </h6>
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                My <span class="poppins text-violet-400">Skills</span> .
+            </h3>
         </div>
+        <div id="skills" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div class="max-w-xl mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12">
+                <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                    <span class="relative inline-block">
+                        <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-0 -right-28 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+                            <defs>
+                                <pattern id="df31b9f6-a505-42f8-af91-d2b7c3218e5c" x="0" y="0" width=".135" height=".30">
+                                    <circle cx="1" cy="1" r=".7"></circle>
+                                </pattern>
+                            </defs>
+                            <rect fill="url(#df31b9f6-a505-42f8-af91-d2b7c3218e5c)" width="52" height="24"></rect>
+                        </svg>
+                    </span>
+                </h2>
+            </div>
+            <div class="grid gap-8 row-gap-8 lg:grid-cols-3">
+                <!-- FrontEnd -->
+                <div class="text-center">
+                    <!-- FrontEnd content -->
+                    <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 mx-auto sm:w-24 sm:h-24">
+                      <i class="fab fa-html5 text-blue-700 text-4xl" aria-hidden="true"></i>
+                    </div>
+                    <h6 class="mb-2 font-semibold leading-5 border-b-2 pb-4">FrontEnd</h6>
+                    <div class="inline-flex mr-2">
+                        <object data="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" class="my-1" aria-label="HTML5 badge"></object>
+                    </div>
+                    <!-- Add other FrontEnd shields here -->
+                    <!-- CSS3 Badge -->
+<div class="inline-flex mr-2">
+    <object data="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" class="my-1" aria-label="CSS3 Badge"></object>
+  </div>
+  
+  <!-- JavaScript Badge -->
+  <div class="inline-flex mr-2">
+    <object data="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" class="my-1" aria-label="JavaScript Badge"></object>
+  </div>
+  
+  <!-- TypeScript Badge -->
+  <div class="inline-flex mr-2">
+    <object data="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" class="my-1" aria-label="TypeScript Badge"></object>
+  </div>
+  
+  <!-- React Badge -->
+  <div class="inline-flex mr-2">
+    <object data="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" class="my-1" aria-label="React Badge"></object>
+  </div>
+  
+  <!-- Redux Badge -->
+  <div class="inline-flex mr-2">
+    <object data="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white" class="my-1" aria-label="Redux Badge"></object>
+  </div>
+  
+  <!-- Svelte Badge -->
+  <div class="inline-flex mr-2">
+    <object data="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" class="my-1" aria-label="Svelte Badge"></object>
+  </div>
+  
+  <!-- Tailwind CSS Badge -->
+  <div class="inline-flex mr-2">
+    <object data="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" class="my-1" aria-label="Tailwind CSS Badge"></object>
+  </div>
+  
+  <!-- Bootstrap Badge -->
+  <div class="inline-flex mr-2">
+    <object data="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" class="my-1" aria-label="Bootstrap Badge"></object>
+  </div>
+  
+  <!-- jQuery Badge -->
+  <div class="inline-flex mr-2">
+    <object data="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" class="my-1" aria-label="jQuery Badge"></object>
+  </div>
+  
+  <!-- Angular Badge -->
+  <div class="inline-flex mr-2">
+    <object data="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" class="my-1" aria-label="Angular Badge"></object>
+  </div>
+                  </div>
+                <!-- BackEnd -->
+                <div class="text-center">
+                    <!-- ... your existing BackEnd content ... -->
+                    <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 mx-auto sm:w-24 sm:h-24">
+                      <i class="fa-solid fa-code text-blue-700 text-4xl" aria-hidden="true"></i>
+                    </div>
+                    <h6 class="mb-2 font-semibold leading-5 border-b-2 pb-4">BackEnd</h6>
+                    <div class="inline-flex mr-2">
+                      <img src="https://img.shields.io/badge/Node.js-393?logo=nodedotjs&amp;logoColor=fff&amp;style=flat" class="my-1" alt="Node.js Badge">
+                    </div>
+                    <div class="inline-flex mr-2">
+                      <img src="https://img.shields.io/badge/Express-000?logo=express&amp;logoColor=fff&amp;style=flat" class="my-1" alt="Express Badge">
+                    </div>
+                    <div class="inline-flex mr-2">
+                      <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&amp;logoColor=fff&amp;style=flat" class="my-1" alt="MySQL Badge">
+                    </div>
+                    <!-- Add similar img tags for the rest of the badges -->
+                  </div>
+                <!-- Tools -->
+                <div class="text-center">
+                    <!-- ... your existing Tools content ... -->
+                </div>
+            </div>
+        </div>        
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
-        <p class="mx-auto">So why not invest?</p>
     </section>
 </main>
