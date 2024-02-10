@@ -382,11 +382,72 @@
                       <div class="inline-flex mr-2">
                         <img src="https://img.shields.io/badge/Auth0-EB5424?logo=auth0&logoColor=fff&style=for-the-badge" class="my-1" alt="Auth0 Badge">
                       </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/JUnit5-25A162?logo=junit5&logoColor=fff&style=for-the-badge" class="my-1" alt="Junit Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/InfluxDB-22ADF6?logo=influxdb&logoColor=fff&style=for-the-badge" class="my-1" alt="InfluxDb Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Hibernate-59666C?logo=hibernate&logoColor=fff&style=for-the-badge" class="my-1" alt="Hibernate Badge">
+                      </div>
                     <!-- Add similar img tags for the rest of the badges -->
                   </div>
                 <!-- Tools -->
                 <div class="text-center">
                     <!-- ... your existing Tools content ... -->
+                    <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 mx-auto sm:w-24 sm:h-24">
+                        <i class="fa-solid fa-screwdriver-wrench text-blue-700 text-4xl" aria-hidden="true"></i>
+                      </div>
+                      <h6 class="mb-2 font-semibold leading-5 border-b-2 pb-4">Tools</h6>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff&style=for-the-badge" class="my-1" alt="Git Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge" class="my-1" alt="GitHub Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=fff&style=for-the-badge" class="my-1" alt="GitLab Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=fff&style=for-the-badge" class="my-1" alt="GitHubAction Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=fff&style=for-the-badge" class="my-1" alt="Jenkins Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff&style=for-the-badge" class="my-1" alt="Docker Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=fff&style=for-the-badge" class="my-1" alt="Kubernetes Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Heroku-430098?logo=heroku&logoColor=fff&style=for-the-badge" class="my-1" alt="Heroku Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=fff&style=for-the-badge" class="my-1" alt="Playwright Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=fff&style=for-the-badge" class="my-1" alt="GitLab Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Render-46E3B7?logo=render&logoColor=000&style=for-the-badge" class="my-1" alt="Render Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Serverless-FD5750?logo=serverless&logoColor=fff&style=for-the-badge" class="my-1" alt="ServerLess Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/AWS%20Lambda-F90?logo=awslambda&logoColor=fff&style=for-the-badge" class="my-1" alt="AWS Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?logo=azuredevops&logoColor=fff&style=for-the-badge" class="my-1" alt="Azure Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000?logo=intellijidea&logoColor=fff&style=for-the-badge" class="my-1" alt="InteliJ Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=for-the-badge" class="my-1" alt="VSCode Badge">
+                      </div>
                 </div>
             </div>
         </div>        
