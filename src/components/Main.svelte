@@ -25,7 +25,7 @@
     let benefits = [
         {
             metric: "10x",
-            name: "a self taught developer",
+            name: "an experienced IT professional with over 11+ years of expertise",
             description:
                 "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
         },
@@ -391,6 +391,9 @@
                       <div class="inline-flex mr-2">
                         <img src="https://img.shields.io/badge/Hibernate-59666C?logo=hibernate&logoColor=fff&style=for-the-badge" class="my-1" alt="Hibernate Badge">
                       </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Elasticsearch-005571?logo=elasticsearch&logoColor=fff&style=for-the-badge" class="my-1" alt="ELK Badge">
+                      </div>
                     <!-- Add similar img tags for the rest of the badges -->
                   </div>
                 <!-- Tools -->
@@ -447,6 +450,18 @@
                       </div>
                       <div class="inline-flex mr-2">
                         <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=for-the-badge" class="my-1" alt="VSCode Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Jira%20Software-0052CC?logo=jirasoftware&logoColor=fff&style=for-the-badge" class="my-1" alt="Jira Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Bitbucket-0052CC?logo=bitbucket&logoColor=fff&style=for-the-badge" class="my-1" alt="Bitbucket Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Confluence-172B4D?logo=confluence&logoColor=fff&style=for-the-badge" class="my-1" alt="Conflu Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Kibana-005571?logo=kibana&logoColor=fff&style=for-the-badge" class="my-1" alt="Kibana Badge">
                       </div>
                 </div>
             </div>

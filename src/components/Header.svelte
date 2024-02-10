@@ -2,12 +2,16 @@
     export let y;
 
     export let tabs = [
-        { name: "Projects ", link: "#projects" },
+        { name: "Projects", link: "#projects" },
         { name: "About me", link: "#about" },
         { name: "Vlog", link: "https://www.youtube.com/watch?v=K4TfMeUxmK4" },
-        // { name: "Contact", link: "" },
-        // {name: '', link: ''},
+        //{ name: "Contact", link: "https://www.linkedin.com/in/biplob-das/" },
+        // { name: '', link: '' },
     ];
+
+    function redirectToLinkedIn() {
+        window.location.href = "https://www.linkedin.com/in/biplob-das/";
+    }
 </script>
 
 <header
@@ -29,15 +33,8 @@
                 <p>{tab.name}</p>
             </a>
         {/each}
-        <!-- <button
-            class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-violet-600 text-white"
-        >
-            <div
-                class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-            />
-            <h4 class="relative z-9">Login</h4>
-        </button> -->
         <button
+            on:click={redirectToLinkedIn}
             class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
         >
             <div
