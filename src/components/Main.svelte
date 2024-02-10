@@ -450,9 +450,9 @@
                       </div>
                 </div>
             </div>
-            <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-                <p>Scroll to see more &rarr;</p>
-            </div>
-        </div>        
+        </div>  
+        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
+            <p>Scroll to see more &rarr;</p>
+        </div>     
     </section>
 </main>

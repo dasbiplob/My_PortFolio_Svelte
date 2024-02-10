@@ -4,7 +4,7 @@
     </p>
     <div class="flex flex-col gap-4 items-center justify-center">
         <!-- Social Media Links -->
-        <p><b class="pr-2">Email</b> <span class="text-violet-400">biplob90.d@gmail.com</span></p>
+        <p><b class="pr-2">Email</b> <span class="text-violet-400">insight.das.biplob@gmail.com</span></p>
         <p>
             <b class="pr-2">GitHub</b>
             <a href="https://github.com/dasbiplob" target="_blank" class="text-violet-400">
