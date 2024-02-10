@@ -329,14 +329,59 @@
                     </div>
                     <h6 class="mb-2 font-semibold leading-5 border-b-2 pb-4">BackEnd</h6>
                     <div class="inline-flex mr-2">
-                      <img src="https://img.shields.io/badge/Node.js-393?logo=nodedotjs&amp;logoColor=fff&amp;style=flat" class="my-1" alt="Node.js Badge">
+                      <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" class="my-1" alt="Node.js Badge">
                     </div>
                     <div class="inline-flex mr-2">
-                      <img src="https://img.shields.io/badge/Express-000?logo=express&amp;logoColor=fff&amp;style=flat" class="my-1" alt="Express Badge">
+                      <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" class="my-1" alt="Express Badge">
                     </div>
                     <div class="inline-flex mr-2">
-                      <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&amp;logoColor=fff&amp;style=flat" class="my-1" alt="MySQL Badge">
+                        <img src="https://img.shields.io/badge/deno%20js-000000?style=for-the-badge&logo=deno&logoColor=white" class="my-1" alt="Deno Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" class="my-1" alt="Java Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=fff&style=for-the-badge" class="my-1" alt="Spring Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?logo=springsecurity&logoColor=fff&style=for-the-badge" class="my-1" alt="SpringSecurity Badge">
+                      </div>
+                    <div class="inline-flex mr-2">
+                      <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=for-the-badge" class="my-1" alt="MySQL Badge">
                     </div>
+                    <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge" class="my-1" alt="Postgressql Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=fff&style=for-the-badge" class="my-1" alt="MongoDB Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge" class="my-1" alt="Python Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Flyway-CC0200?logo=flyway&logoColor=fff&style=for-the-badge" class="my-1" alt="Flyway Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?logo=apachekafka&logoColor=fff&style=for-the-badge" class="my-1" alt="Kafka Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/JSON-000?logo=json&logoColor=fff&style=for-the-badge" class="my-1" alt="Json Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/JSON%20Web%20Tokens-000?logo=jsonwebtokens&logoColor=fff&style=for-the-badge" class="my-1" alt="JWT Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?logo=apachekafka&logoColor=fff&style=for-the-badge" class="my-1" alt="Kafka Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Auth0-EB5424?logo=auth0&logoColor=fff&style=for-the-badge" class="my-1" alt="Auth0 Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=for-the-badge" class="my-1" alt="Swagger Badge">
+                      </div>
+                      <div class="inline-flex mr-2">
+                        <img src="https://img.shields.io/badge/Auth0-EB5424?logo=auth0&logoColor=fff&style=for-the-badge" class="my-1" alt="Auth0 Badge">
+                      </div>
                     <!-- Add similar img tags for the rest of the badges -->
                   </div>
                 <!-- Tools -->
