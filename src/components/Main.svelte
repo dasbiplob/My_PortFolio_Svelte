@@ -65,7 +65,7 @@
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite tech</span> includes Java, Springboot,JavaScript
+                My <span class="text-violet-400"> favorite tech</span> includes Java + Springboot,JavaScript
                 (SvelteKit), React, TailwindCSS, Node.js + Express.js & PostgreSQL
                 or Firebase/Firestore!
             </p>
