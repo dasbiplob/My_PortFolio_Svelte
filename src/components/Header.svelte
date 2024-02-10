@@ -5,12 +5,16 @@
         { name: "Projects", link: "#projects" },
         { name: "About me", link: "#about" },
         { name: "Vlog", link: "https://www.youtube.com/watch?v=K4TfMeUxmK4" },
-        //{ name: "Contact", link: "https://www.linkedin.com/in/biplob-das/" },
+        //{ name: "Contact", link: "#contact" },
         // { name: '', link: '' },
     ];
 
     function redirectToLinkedIn() {
-        window.location.href = "https://www.linkedin.com/in/biplob-das/";
+        //window.location.href = "https://www.linkedin.com/in/biplob-das/";
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
     }
 </script>
 

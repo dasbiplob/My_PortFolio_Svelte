@@ -60,14 +60,18 @@
                 (SvelteKit), React, TailwindCSS, Node.js + Express.js & PostgreSQL
                 or Firebase/Firestore!
             </p>
-            <button
-                class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-            >
-                <div
-                    class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-                />
-                <h4 class="relative z-9">Get in touch &rarr;</h4>
-            </button>
+            <div class="flex justify-center items-center">
+                    <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
+                        <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
+                        <h4 class="relative z-9">Get in touch &rarr;</h4>
+                    </button>
+            
+                    <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
+                        <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
+                        <h4 class="relative z-9">Hire Me &rarr;</h4>
+                    </button>
+            </div>
+            
         </div>
 
         <div class="flex w-full h-full relative shadow-2xl grid place-items-center">
@@ -437,9 +441,9 @@
                       </div>
                 </div>
             </div>
+            <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
+                <p>Scroll to see more &rarr;</p>
+            </div>
         </div>        
-        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-            <p>Scroll to see more &rarr;</p>
-        </div>
     </section>
 </main>
