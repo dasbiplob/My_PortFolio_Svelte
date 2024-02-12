@@ -347,9 +347,6 @@
                         <img src="https://img.shields.io/badge/Flyway-CC0200?logo=flyway&logoColor=fff&style=for-the-badge" class="my-1" alt="Flyway Badge">
                       </div>
                       <div class="inline-flex mr-2">
-                        <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?logo=apachekafka&logoColor=fff&style=for-the-badge" class="my-1" alt="Kafka Badge">
-                      </div>
-                      <div class="inline-flex mr-2">
                         <img src="https://img.shields.io/badge/JSON-000?logo=json&logoColor=fff&style=for-the-badge" class="my-1" alt="Json Badge">
                       </div>
                       <div class="inline-flex mr-2">
@@ -357,9 +354,6 @@
                       </div>
                       <div class="inline-flex mr-2">
                         <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?logo=apachekafka&logoColor=fff&style=for-the-badge" class="my-1" alt="Kafka Badge">
-                      </div>
-                      <div class="inline-flex mr-2">
-                        <img src="https://img.shields.io/badge/Auth0-EB5424?logo=auth0&logoColor=fff&style=for-the-badge" class="my-1" alt="Auth0 Badge">
                       </div>
                       <div class="inline-flex mr-2">
                         <img src="https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=for-the-badge" class="my-1" alt="Swagger Badge">
