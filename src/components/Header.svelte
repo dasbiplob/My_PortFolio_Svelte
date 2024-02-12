@@ -30,7 +30,7 @@
 >
 <a href="/" class="duration-200 hover:text-violet-400">
     <h1 class="font-medium">
-        <b class="font-bold poppins">Port</b><span class="poppins text-violet-400">folio</span>
+        <b class="font-bold poppins">Biplob's</b><span class="poppins text-violet-400">info</span>page
     </h1>
 </a>
     <div class="sm:flex items-center gap-4 hidden">
