@@ -34,7 +34,7 @@
             name: "a full stack and UiPath developer",
             description:
                 //"Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
-                "Experienced Full Stack Developer with a passion for coding and diverse skills like Svelte, Java, JS, React. Led a team, established RPA COE, managed 100+ servers and processes, and excelled in client-facing roles. Expert in UiPath, Python, and automation, ensuring innovative solutions and 10% cost reduction. Recognized for resolving critical issues and awarded On The Spot 2022 for addressing log4j vulnerability. Proven track record in solution design, code reviews, and infrastructure management, resulting in a 20% increase in client acceptance. Actively engaged with UiPath product teams, contributing to the product roadmap.",
+                "Experienced Full Stack Developer with a passion for coding and diverse skills like Svelte, Java, JS, React. Led a team, established RPA COE, managed 100+ servers and processes, and excelled in client-facing roles. Expert in UiPath, Python, and automation, ensuring innovative solutions and 30% cost reduction. Recognized for resolving critical issues and awarded On The Spot 2022 for addressing log4j vulnerability. Proven track record in solution design, code reviews, and infrastructure management, resulting in a 20% increase in client acceptance. Actively engaged with UiPath product teams, contributing to the product roadmap.",
         },
         {
             name: "an excellent communicator",
